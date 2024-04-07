@@ -1,6 +1,6 @@
 # dev configuration.
-export GOPATH="/root/go"
-export GOBIN="/root/go/bin"
+export GOPATH="/home/wengy/go"
+export GOBIN="/home/wengy/go/bin"
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn
 export PATH="$PATH:$GOPATH:$GOBIN"
@@ -12,6 +12,7 @@ alias la="ls -al"
 alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
+alias vi="vim"
 # alias python="/usr/bin/python3"
 # alias pip="/usr/bin/pip3.9"
 
