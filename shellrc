@@ -1,9 +1,9 @@
 # dev configuration.
-export GOPATH="/home/wengy/go"
-export GOBIN="/home/wengy/go/bin"
+export GOPATH="/home/wyuhsin/go"
+export GOBIN="/home/wyuhsin/go/bin"
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn
-export PATH="$PATH:$GOPATH:$GOBIN"
+export PATH="$PATH:$GOPATH:$GOBIN:/home/wyuhsin/.local/bin"
 
 # alias configuration.
 alias ll="ls -l"
@@ -23,3 +23,6 @@ set bell-style none
 # export https_proxy="http://172.29.248.135:7890"
 # export all_proxy="socks5://172.29.248.135:7890"
 # export ALL_PROXY="socks5://172.29.248.135:7890"
+
+# fzf configuration
+export FZF_DEFAULT_OPTS='--bind ctrl-j:down,ctrl-k:up'
